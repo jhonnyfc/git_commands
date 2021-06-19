@@ -54,5 +54,6 @@ Then you need to restore abc.c in your working tree:
 ### Cambiar de el administrador de gitlab a github:
 Quitar el origin de gitLab y poner el de git hub y luego pushear, <br> pude que tengas que añadir tu clave ssh publica a github.
 
+	$ git remote remove origin
 	$ git remote add origin git@github.com:USERNAME/REPO_NAME.git
 	$ git push origin master
