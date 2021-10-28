@@ -84,6 +84,46 @@ Then you need to restore abc.c in your working tree:
   $ git rebase -i HEAD~X
 ```
 
+Cuando se termine
+
+```
+  $ git rebase continue
+```
+
+### Gurdadr los cambios acturales en la pp para poder hacer pull...
+
+Se guardan los cambios que no se han stageado, para poder hacer un pull...
+
+```
+  $ git stash
+  $ git pull
+  $ git stash apply -> se vuelven ha traer los cambios que hemos guardado con anterioridad.
+```
+
+Se vuelven ha traer los cambios que hemos guardado con anterioridad.
+
+```
+  $ git stash apply
+```
+
+### Mezcalr dos ramas con rebase
+
+```
+  $ git fetch
+  $ git rebase origin/dev
+```
+
+Corregir añadir, continue y skip
+
+```
+  $ git rebase --continue
+  $ git rebase --skip
+```
+
+```
+  $ git push --force-with-lease
+```
+
 ### Mostar configuracion actual de git
 
 ```
