@@ -78,6 +78,20 @@ Then you need to restore abc.c in your working tree:
   $ git reset HEAD~X
 ```
 
+### Deshacer X un rebase o reset...
+
+Mostramos todo el historico de cambios que han habido
+
+```
+  $ git reflog
+```
+
+Elegir el punto al que se quiere volver
+
+```
+  $ git reset --hard HEAD@{#NUMERO#}
+```
+
 ### Hace un rebase interactivo con los X commits desde el Head
 
 ```
