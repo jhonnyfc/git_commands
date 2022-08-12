@@ -15,6 +15,12 @@ In order to set local project config remove --global flag
 git config --global credential.helper manager-core
 ```
 
+### Use toke to clone repo
+
+```
+git clone https://oauth2:TOKEN_CODE@github.com/username/repo.git
+```
+
 ### Crear una nueva rama
 
 ```
