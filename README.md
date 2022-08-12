@@ -1,5 +1,14 @@
 # git_commands
 
+### Set global config
+
+```
+git config --global user.name "Your Name Here"
+git config --global user.email your@email.example
+```
+
+In order to set local project config remove --global flag
+
 ### Crear una nueva rama
 
 ```
