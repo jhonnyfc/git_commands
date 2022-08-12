@@ -7,7 +7,7 @@ git config --global user.name "Your Name Here"
 git config --global user.email your@email.example
 ```
 
-In order to set local project config remove --global flag
+In order to set local project config remove `--global` flag
 
 ### Use Win2 credential manager
 
@@ -15,7 +15,7 @@ In order to set local project config remove --global flag
 git config --global credential.helper manager-core
 ```
 
-### Use toke to clone repo
+### Use toke to clone repo``
 
 ```
 git clone https://oauth2:TOKEN_CODE@github.com/username/repo.git
