@@ -9,6 +9,12 @@ git config --global user.email your@email.example
 
 In order to set local project config remove --global flag
 
+### Use Win2 credential manager
+
+```
+git config --global credential.helper manager-core
+```
+
 ### Crear una nueva rama
 
 ```
