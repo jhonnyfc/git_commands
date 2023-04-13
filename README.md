@@ -15,6 +15,14 @@ In order to set local project config remove `--global` flag
 git config --global credential.helper manager-core
 ```
 
+### Auto crlf
+
+```
+git config core.autocrlf false
+```
+
+Set to false in order to use unix EOF
+
 ### Use toke to clone repo``
 
 ```
